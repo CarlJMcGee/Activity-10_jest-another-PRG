@@ -17,9 +17,7 @@
     "url": "https://github.com/CarlJMcGee/Challenge-10_jest-another-PRG/issues"
   },
   "homepage": "https://github.com/CarlJMcGee/Challenge-10_jest-another-PRG#readme",
-  "devDependencies": {
-    "typescript": "^4.6.4"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@types/jest": "^27.5.0",
     "@types/node": "^17.0.31",
