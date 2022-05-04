@@ -24,4 +24,20 @@ Player.prototype.getInventory = function () {
   return this.inventory.length ? this.inventory : false;
 };
 
+Player.prototype.getHealth = function () {
+  return `${this.name}'s health is now ${this.health}!`;
+};
+
+Player.prototype.isAlive = function () {
+  return this.health > 0 ? true : false;
+};
+
+Player.prototype.reduceHealth = function (dmg: number) {
+  this.health -= dmg;
+
+  if (this.health < 0) {
+    this.health = 0;
+  }
+};
+
 module.exports = Player;
