@@ -7,6 +7,8 @@ function Player(name = "") {
   this.health = playerNumGen(105, 95);
   this.strenth = playerNumGen(12, 7);
   this.agility = playerNumGen(12, 7);
+
+  this.inventory = [new playerPotion("health"), new playerPotion()];
 }
 
 module.exports = Player;

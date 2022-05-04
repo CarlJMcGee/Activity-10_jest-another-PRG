@@ -1,6 +1,6 @@
 const potionNumGen = require("../util/random.ts");
 
-function Potion(name: string) {
+function Potion(name?: string) {
   this.types = ["strenth", "agility", "health"];
   this.name = name || this.types[potionNumGen(this.types.length, 1)];
 
