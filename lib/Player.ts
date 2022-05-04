@@ -1,4 +1,5 @@
 const playerNumGen = require("../util/random");
+const playerPotion = require("./Potion.ts");
 
 function Player(name = "") {
   this.name = name;
