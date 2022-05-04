@@ -1,0 +1,32 @@
+{
+  "name": "challenge-10_jest-another-prg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlJMcGee/Challenge-10_jest-another-PRG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlJMcGee/Challenge-10_jest-another-PRG/issues"
+  },
+  "homepage": "https://github.com/CarlJMcGee/Challenge-10_jest-another-PRG#readme",
+  "dependencies": {
+    "@types/node": "^17.0.31",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.5.0",
+    "babel-jest": "^28.0.3",
+    "jest": "^28.0.3"
+  }
+}
